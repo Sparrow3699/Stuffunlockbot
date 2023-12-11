@@ -892,7 +892,6 @@ class Buttons:
     START_BUTTON  = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(Messages.REFRESH, callback_data="statscallback|refresh"),
                 InlineKeyboardButton(Messages.BACK, callback_data="megoinhome"),
             ]
         ]
