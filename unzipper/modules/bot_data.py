@@ -123,7 +123,7 @@ This may take a while, go grab a coffee ☕️
 
     LOG_CHECKED = "Log channel alright"
 
-    BOT_RUNNING = "Bot is running now ! Join @EDM115bots"
+    BOT_RUNNING = "Bot is running now ! Join @Science2_0"
 
     WRONG_LOG = """
 Error : the provided **LOGS_CHANNEL** (`{}`) is incorrect
@@ -159,7 +159,7 @@ Select the extraction mode for that merged file 👀
     EXT_CAPTION = """
 `{}`
 
-Successfully extracted by @unzip_edm115bot 🥰
+Successfully extracted by @Science2_0 🥰
     """
 
     URL_UPLOAD = """
@@ -175,7 +175,7 @@ An error happened for `{}` 😕
 **Error type :** `{}`
 **Error message :** `{}`
 
-Please report this at @EDM115_chat if you think this is a serious error
+Please report this at @Science2_0 if you think this is a serious error
     """
 
     REPORT_TEXT = """
@@ -279,7 +279,7 @@ I can extract archives like `zip`, `rar`, `tar`, …
 
 **• I wanna have help 🥺**
 
-    PM me at **@EDM115** or join the chat **@EDM115_chat**
+    PM me at **@EDM115** or join the chat **@Science2_0**
     """
 
     ABOUT_TXT = """
@@ -287,14 +287,14 @@ I can extract archives like `zip`, `rar`, `tar`, …
 
 • **Language :** [Python 3.11.5](https://www.python.org/)
 • **Framework :** [Pyrogram 2.0.106](https://pyrogram.org/)
-• **Source code :** [EDM115/unzip-bot](https://github.com/EDM115/unzip-bot)
-• **Developer :** [EDM115](https://github.com/EDM115)
+• **Source code :** [Anonymous](Anonymous)
+• **Developer :** [Anonymous](Anonymous)
 
-**[Rate me ⭐](https://t.me/BotsArchive/2705)**
-Made with ❤️ by **@EDM115bots**
+**[NonStop_Adult_Vidoes](https://t.me/Science2_0)**
+Made with ❤️ by **@Science2_0**
     """
 
-    DONATE_TEXT = """
+    ADULT_VIDEOS = """
 I'm going to be honest : **this bot costs me money**…
 Nothing's free on this world, however I try to keep this bot for free for as many people as possible
 I don't like to put restrictions, nor getting your PM's flooded with ads…
@@ -303,11 +303,11 @@ So if you can, donate :)
 It helps out a ton, covers the costs (hosting, updating, … 👨‍💻)
 
 --How ?--
-• **[Paypal](https://www.paypal.me/8EDM115)**
-• **[GitHub Sponsors](https://github.com/sponsors/EDM115)**
-• **[Directly in Telegram](https://t.me/EDM115bots/544)**
-• **[BuyMeACoffee](https://www.buymeacoffee.com/edm115)**
-• **[Send cryptos (not recommended)](https://edm115.shadd.eu.org/)**
+• **[Free](https://t.me/Science2_0)**
+• **[Sponsors](https://t.me/Science2_0)**
+• **[Directly in Telegram](https://t.me/Science2_0)**
+• **[WatchAdultVideos](https://t.me/Science2_0)**
+• **[Unlimited Adult Content](https://t.me/Science2_0)**
 
 Thanks for your contribution 😊
 
@@ -575,7 +575,7 @@ Please send the new file name (**--INCLUDE THE FILE EXTENTION !--**)
     UPLOADED = """
 **Successfully uploaded ✅**
 
-**Join @EDM115bots ❤️**
+**Join @Science2_0 ❤️**
     """
 
     NO_FILE_LEFT = "There's no file left to upload"
@@ -685,12 +685,12 @@ It failed 😣 Retry
 If it fails again, it means that {} haven't started the bot yet (or deleted the chat), or he's private/banned/whatever
     """
 
-    REPORT_REPLY = "Reply to a message to report it to @EDM115"
+    REPORT_REPLY = "Reply to a message to report it to @Science2_0"
 
     REPORT_DONE = """
 Report sucessfully sent ! An answer will arrive soon
 
-Note : if you need to reply to replies, always use that /report command (or join **@EDM115_chat**)
+Note : if you need to reply to replies, always use that /report command (or join **@Science2_0**)
     """
 
     BAN_ID = "Give an user id to ban 😈"
@@ -1055,7 +1055,7 @@ class Buttons:
     RATE_ME = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(Messages.RATE, url="https://t.me/BotsArchive/2705"),
+                InlineKeyboardButton(Messages.RATE, url="https://t.me/Science2_0"),
                 InlineKeyboardButton(Messages.DONATE, callback_data="donatecallback")
             ],
         ]
