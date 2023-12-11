@@ -473,7 +473,7 @@ Do you really want to delete your thumbnail ?
 
 `{}`
 
-Please report this at @EDM115_chat if you think this is a serious error
+Please report this at @Science2_0 if you think this is a serious error
     """
 
     CANCELLED_TXT = "**{} ✅**"
@@ -557,7 +557,7 @@ Use the **/merge** command
     QUERY_PARSE_ERR = """
 Fatal query parsing error 💀
 
-Please contact @EDM115_chat with details and screenshots
+Please contact @Science2_0 with details and screenshots
     """
 
     GIVE_NEW_NAME = """
