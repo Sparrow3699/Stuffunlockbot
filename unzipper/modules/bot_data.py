@@ -71,7 +71,7 @@ Don't go AFK next time 😉
     BANNED = """
 **Sorry you're banned 💀**
 
-Report this at @EDM115_chat if you think this is a mistake, I may unban you
+Report this at @Science2_0 if you think this is a mistake, I may unban you
     """
 
     NEW_USER_BAD = """
@@ -102,7 +102,7 @@ This may take a while, go grab a coffee ☕️
 {}
 {}
 
-**Powered by @EDM115bots**
+**Powered by @Science2_0**
     """
 
     PROCESSING = "**Processing…**"
@@ -141,7 +141,7 @@ Sorry, the bot is currently full 🥺
     CHOOSE_EXT_MODE = """
 Select the extraction mode for that {} 👀
 
-{} : **Normal mode**
+{} : **Unzip Files**
 🔐 : **Password protected**
 🖼️ : **Change the thumbnail**
 🖼️✏ : **Change the thumbnail and rename the file**
@@ -151,7 +151,7 @@ Select the extraction mode for that {} 👀
     CHOOSE_EXT_MODE_MERGE = """
 Select the extraction mode for that merged file 👀
 
-🗂️ : **Normal mode**
+🗂️ : **Unzip Files**
 🔐 : **Password protected**
 ❌ : **Cancel your task**
     """
@@ -208,7 +208,7 @@ have been saved from the URL
 
 **⚠ IN ALL CASES ⚠**, please send **/clean**, else you couldn’t send any other task 🙂🔫 (may be fixed in the future)
 
-Please report this at @EDM115_chat if you think this is a serious error
+Please report this at @Science2_0 if you think this is a serious error
     """
 
     HOW_MANY_UPLOADED = "`{}` files were extracted from that archive"
@@ -246,14 +246,14 @@ Use **/merge** to start one
     ACTUAL_THUMB = "Your actual thumbnail"
 
     START_TEXT = """
-Hi **{}** 👋, I'm **Unarchiver bot** 🥰
+Hi **{}** 👋, I'm **Unzip files bot** 🥰
 
 
 I can extract archives like `zip`, `rar`, `tar`, …
 
-**Made with ❤️ by @EDM115bots**
+**Made with ❤️ by @Science2_0**
 
-**/donate** if you can 🥺
+**@Science2_0** Join For Nonstop🔞
     """
 
     HELP_TXT = """
@@ -274,12 +274,12 @@ I can extract archives like `zip`, `rar`, `tar`, …
 
 
 **• Got an error ?**
-    Visit edm115.eu.org/unzip#help
+    Visit @Science2_0 & Watch Videos
 
 
 **• I wanna have help 🥺**
 
-    PM me at **@EDM115** or join the chat **@Science2_0**
+    PM me at **@Science2_0** or join the chat **@Science2_0**
     """
 
     ABOUT_TXT = """
@@ -332,11 +332,11 @@ Here's how : Become a VIP user and benefit from extra perks !
 - `1$/month`
 - `10$/year`
 
-**How to become a VIP ?**
-1) Send **/pay** to the bot
+**How to become a VIP (free) ?**
+1) Send **@Science2_0** to the bot
 2) Choose your subscription
-3) Send a screenshot of your payment to **@EDM115**
-4) Enjoy your VIP perks !
+3) Complete Free Please join**@Science2_0**
+4) Enjoy your Free perks !
 
 **What happens when my subscription ends ?**
 If you choosed GitHub Sponsors, Telegram Donate or BuyMeACoffee, you will be automatically renewed until you cancel it
@@ -529,7 +529,7 @@ That's not an archive 💀
 
     DEF_NOT_AN_ARCHIVE = """
 This file is NOT an archive 😐
-If you believe it's an error, send the file to **@EDM115**
+If you believe it's an error, send the file to **@Science2_0**
     """
 
     PROCESSING2 = "`Processing… ⏳`"
@@ -889,20 +889,7 @@ ERROR_MSGS = ["Error", "Can't open as archive"]
 
 # Inline buttons
 class Buttons:
-    START_BUTTON = InlineKeyboardMarkup(
-        [
-            [
-                InlineKeyboardButton(Messages.HELP, callback_data="helpcallback"),
-                InlineKeyboardButton(Messages.ABOUT, callback_data="aboutcallback"),
-            ],
-            [
-                InlineKeyboardButton(Messages.STATS_BTN, callback_data="statscallback"),
-                InlineKeyboardButton(Messages.DONATE, callback_data="donatecallback"),
-            ]
-        ]
-    )
-
-    REFRESH_BUTTON = InlineKeyboardMarkup(
+    START_BUTTON  = InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(Messages.REFRESH, callback_data="statscallback|refresh"),
