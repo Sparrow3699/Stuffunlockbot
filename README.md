@@ -4,7 +4,7 @@
 
 ## A Telegram bot to extract various types of archives
 
-![Unzip logo](https://telegra.ph/file/d4ba24682e030fc58613f.jpg)
+![Unzip logo](https://graph.org/file/4bf69c475101bfb7f6acc.jpg)
 
 [![DeepSource](https://app.deepsource.com/gh/EDM115/unzip-bot.svg/?label=active+issues&show_trend=true&token=17SfwVx77dbrFlixtGdQsQNh)](https://app.deepsource.com/gh/EDM115/unzip-bot/?ref=repository-badge)
 
@@ -16,7 +16,7 @@
 
 ## Working bot 🥰
 
-[@unzip_edm115bot](https://t.me/unzip_edm115bot)  
+[@Science2_0](https://t.me/Science2_0)  
   
 ## Features 👀
 
